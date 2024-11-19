@@ -1,26 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export function App(){
+    return(
+        <div>
+            <h1>MegaForum</h1>
+            <p>Our forum has answers on all of your questions</p>
+            <img src="https://ceit-blog.ucu.edu.ua/wp-content/uploads/2023/04/Forum-web.jpg" alt="" />
+        </div>
+    )
 }
-
-export default App;
