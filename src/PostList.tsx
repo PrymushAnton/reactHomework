@@ -30,7 +30,7 @@ export function PostList(){
         <div>
             {posts.map( (post) => {
                 return <div>  
-                            <Post key={post.id} title={post.title} description={post.description} image={post.image} author={post.author}></Post>
+                            <Post key={post.id} id={post.id} title={post.title} description={post.description} image={post.image} author={post.author}></Post>
                             <hr/>
                         </div>
             }

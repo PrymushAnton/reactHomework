@@ -1,0 +1,18 @@
+
+
+#like{
+    border:none;
+    background-color: transparent;
+    padding: 0;
+}
+
+#likeImage{
+    width: 24px;
+    height: 24px;
+}
+
+#like:hover{
+    background-color: grey;
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+}

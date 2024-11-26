@@ -1,5 +1,5 @@
 import { PostList } from './PostList'
-
+import './style.css'
 export function App(){
     return(
         <div>
